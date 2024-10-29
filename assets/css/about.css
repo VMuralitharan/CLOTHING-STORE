@@ -1,0 +1,104 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container */
+  .about-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    color: #666;
+    font-size: 1.1em;
+  }
+  
+  /* Story, Mission, Values sections */
+  .our-story, .our-mission, .values, .team {
+    margin-bottom: 30px;
+  }
+  
+  .our-story h2, .our-mission h2, .values h2, .team h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .our-story p, .our-mission p, .team p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  /* Values Section */
+  .values {
+    text-align: center;
+  }
+  
+  .value-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .value-item {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .value-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .value-item p {
+    color: #666;
+    font-size: 1em;
+  }
+  
+  /* Team Section */
+  .team {
+    text-align: center;
+  }
+  
+  .team p {
+    color: #666;
+    font-size: 1em;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .value-items {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  

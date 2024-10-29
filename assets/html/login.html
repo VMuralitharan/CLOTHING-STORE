@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - InstaShipin</title>
+  <link rel="stylesheet" href="../css/style1.css">
+</head>
+<body>
+
+<div class="login-container">
+  <div class="login-image">
+    <img src="../images/Gray and Black Simple Studio Logo.png" alt="Logo">
+   
+  </div>
+
+  <div class="login-form">
+    <h2>Welcome to Style Haven</h2>
+    <p></p>
+
+    <form id="loginForm" action="../" method="POST" onsubmit="return validateForm()">
+      <div class="input-group">
+          <label for="username"><i class="icon-mail"></i> Username or email</label>
+          <input type="text" id="username" name="username" required>
+      </div>
+  
+      <div class="input-group">
+          <label for="password"><i class="icon-lock"></i> Password</label>
+          <input type="password" id="password" name="password" required>
+      </div>
+  
+      <div class="options">
+          <label>
+              <input type="checkbox" name="remember"> Remember Me
+          </label>
+          <a href="#">Forgot Password?</a>
+      </div>
+  
+      <button type="submit">Sign In</button>
+  
+      <div class="signup-link">
+          <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+      </div>
+  </form>
+  
+  </div>
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
